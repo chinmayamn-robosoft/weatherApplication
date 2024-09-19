@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useWeather } from "../../../context/WeatherContext";
-import styles from "./CityInput.module.css";
 import Button from "../../atoms/Button/Button";
+import styles from "./CityInput.module.css";
 
 const CityInput = () => {
   const [inputCity, setInputCity] = useState("");
